@@ -1,8 +1,9 @@
 {
-  "name": "json-schema-builder",
-  "version": "0.0.5",
+  "name": "json-schema-build",
+  "version": "0.0.6",
   "description": "Library for generating JSON Schema.",
   "main": "./dist/lib",
+  "private": true,
   "scripts": {
     "test": "gulp test",
     "test-node-0.12": "mocha dist/test -- --harmony",
