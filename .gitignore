@@ -1,5 +1,5 @@
 node_modules/
-dist/
+
 .idea/.name
 .idea/jsLibraryMappings.xml
 .idea/json-schema-builder.iml
