@@ -55,3 +55,6 @@ exports.maxLength = function () { return schema().maxLength(...arguments) }
 exports.minLength = function () { return schema().minLength(...arguments) }
 exports.pattern = function () { return schema().pattern(...arguments) }
 exports.format = function () { return schema().format(...arguments) }
+
+exports.title = function () { return schema().title(...arguments) }
+

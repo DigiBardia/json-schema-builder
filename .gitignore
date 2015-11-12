@@ -1,2 +1,10 @@
 node_modules/
 dist/
+.idea/.name
+.idea/jsLibraryMappings.xml
+.idea/json-schema-builder.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/workspace.xml
+.idea/libraries/json_schema_builder_node_modules.xml

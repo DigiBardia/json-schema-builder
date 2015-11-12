@@ -39,6 +39,7 @@ function test(name, description, builderFn) {
       const expected = getSchema(name, description);
       const actual = builderFn().json();
 
+      
       if (!isEqual(actual, expected) || verbose) {
         print('==============================');
         print('expected =>');
@@ -195,7 +196,6 @@ describe ('Tests based on standard JSON Schema Test Suite', () => {
               json.property('foo', json.string(), true),
               json.property('baz', json.null(), true)])
             .property('bar', json.integer(), true);
-
         return schema;
       });
 
@@ -293,6 +293,14 @@ describe ('Tests based on standard JSON Schema Test Suite', () => {
         const schema = json.dependencies({ 'quux': ['foo', 'bar'] });
         return schema;
       });
+
+      it("title does something", () => {
+        const schema = json.title('bardia');
+        console.log('---------------------------------------');
+        console.log(JSON.stringify(schema, null, 4));
+        return schema;
+      });
+
 
       test('dependencies', 'multiple dependencies subschema', ()=> {
         const schema = json.dependencies({
