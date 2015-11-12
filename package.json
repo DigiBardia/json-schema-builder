@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/atomiqio/json-schema-builder.git"
+    "url": "git+https://github.com/DigiBardia/json-schema-builder.git"
   },
   "keywords": [
     "JSON",
